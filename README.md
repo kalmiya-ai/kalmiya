@@ -4,7 +4,7 @@
 
 ```bash
 bin/setup
-bin/rails s
+bin/dev
 ```
 
 ## Testing
