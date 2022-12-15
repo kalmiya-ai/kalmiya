@@ -42,6 +42,8 @@ class User < ApplicationRecord
             uniqueness: { allow_blank: true, case_sensitive: false },
             'validations/cross_uniqueness': { against: :email, allow_blank: true, case_sensitive: false }
 
+  has_many :sessions, dependent: :delete_all
+
   protect_attributes %i[confirmation_token
                         email_confirmation
                         password
