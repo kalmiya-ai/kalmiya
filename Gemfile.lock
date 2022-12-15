@@ -99,6 +99,7 @@ GEM
       railties (>= 5.0.0)
     faker (3.0.0)
       i18n (>= 1.8.11, < 2)
+    ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -114,6 +115,7 @@ GEM
     jsbundling-rails (1.1.1)
       railties (>= 6.0.0)
     json (2.6.3)
+    jwt (2.5.0)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -196,6 +198,8 @@ GEM
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
     rake (13.0.6)
+    rbnacl (7.1.1)
+      ffi
     redis (5.0.5)
       redis-client (>= 0.9.0)
     redis-client (0.11.2)
@@ -312,6 +316,7 @@ DEPENDENCIES
   faker
   jbuilder
   jsbundling-rails
+  jwt (~> 2.5)
   mocha
   overcommit
   pg (~> 1.1)
@@ -319,6 +324,7 @@ DEPENDENCIES
   puma (~> 6.0)
   rack-mini-profiler
   rails (~> 7.0.4)
+  rbnacl (~> 7.1)
   redis (~> 5.0)
   rspec-rails
   rubocop-rails

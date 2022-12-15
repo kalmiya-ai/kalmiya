@@ -88,3 +88,6 @@ group :test do
   gem 'simplecov', require: false
   gem 'simplecov-cobertura', require: false
 end
+
+gem 'jwt', '~> 2.5'
+gem 'rbnacl', '~> 7.1'
