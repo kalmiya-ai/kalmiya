@@ -36,4 +36,18 @@
 // @import "bulma/sass/layout/hero.sass";
 // @import "bulma/sass/layout/section.sass";
 
-@import 'bulma/bulma';
+@import "bulma/bulma";
+
+button {
+  @extend .button, .is-primary;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  @extend .input;
+}
+
+label {
+  @extend .label;
+}

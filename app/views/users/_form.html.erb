@@ -1,0 +1,29 @@
+<div class="section">
+  <div class="container">
+    <%= form_for @user, url: user_path do |form| %>
+      <div class="field">
+        <%= form.label :name %>
+        <%= form.text_field :name %>
+      </div>
+      <div class="field">
+        <%= form.label :email %>
+        <%= form.email_field :email %>
+      </div>
+      <div class="field">
+        <%= form.label :email_confirmation %>
+        <%= form.email_field :email_confirmation %>
+      </div>
+      <div class="field">
+        <%= form.label :password %>
+        <%= form.password_field :password %>
+      </div>
+      <div class="field">
+        <%= form.label :password_confirmation %>
+        <%= form.password_field :password_confirmation %>
+      </div>
+      <div class="field">
+        <%= form.button %>
+      </div>
+    <% end %>
+  </div>
+</div>
