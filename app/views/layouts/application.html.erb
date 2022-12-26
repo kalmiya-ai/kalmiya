@@ -11,8 +11,10 @@
   </head>
 
   <body>
-    <%= flash.each do |type, message| %>
-      <div class="notification is-<%= type %>"><%= message %></div>
+    <% %i[success warning danger].each do |type| %>
+      <% if flash[type] %>
+        <div class="notification is-<%= type %>"><%= flash[type] %></div>
+      <% end %>
     <% end %>
 
     <%= yield %>

@@ -3,23 +3,28 @@
     <%= form_for @user, url: user_path do |form| %>
       <div class="field">
         <%= form.label :name %>
-        <%= form.text_field :name %>
+        <%= form.text_field :name, required: true %>
+        <%= (t('helpers.label.user.name') + ' ' + @errors[:name].join(', ')) if @errors.key?(:name) %>
       </div>
       <div class="field">
         <%= form.label :email %>
-        <%= form.email_field :email %>
+        <%= form.email_field :email, required: true %>
+        <%= (t('helpers.label.user.email') + ' ' + @errors[:email].join(', ')) if @errors.key?(:email) %>
       </div>
       <div class="field">
         <%= form.label :email_confirmation %>
-        <%= form.email_field :email_confirmation %>
+        <%= form.email_field :email_confirmation, required: true %>
+        <%= (t('helpers.label.user.email_confirmation') + ' ' + @errors[:email_confirmation].join(', ')) if @errors.key?(:email_confirmation) %>
       </div>
       <div class="field">
         <%= form.label :password %>
-        <%= form.password_field :password %>
+        <%= form.password_field :password, required: true %>
+        <%= (t('helpers.label.user.password') + ' ' + @errors[:password].join(', ')) if @errors.key?(:password) %>
       </div>
       <div class="field">
         <%= form.label :password_confirmation %>
-        <%= form.password_field :password_confirmation %>
+        <%= form.password_field :password_confirmation, required: true %>
+        <%= (t('helpers.label.user.password_confirmation') + ' ' + @errors[:password_confirmation].join(', ')) if @errors.key?(:password_confirmation) %>
       </div>
       <div class="field">
         <%= form.button %>

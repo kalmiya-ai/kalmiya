@@ -4,15 +4,21 @@ class UsersController < ApplicationController
   def show; end
 
   def new
-    @user = User.new
+    @user = User.new(flash[:params])
+    @errors = (flash[:errors] || {}).with_indifferent_access
   end
 
   def edit; end
 
   def create
     @user = User.create!(create_params)
-
     flash[:success] = t('.success')
+
+    redirect_to action: :new
+  rescue ActiveRecord::RecordInvalid => e
+    flash[:errors] = e.record.errors
+    flash[:params] = create_params.slice(:name, :email, :email_confirmation)
+
     redirect_to action: :new
   end
 
