@@ -252,7 +252,7 @@ GEM
     service_actor-rails (1.0.0)
       rails (>= 4.2)
       service_actor
-    simplecov (0.21.2)
+    simplecov (0.22.0)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
