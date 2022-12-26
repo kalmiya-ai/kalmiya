@@ -24,5 +24,7 @@ Style/Documentation:
   Exclude:
     - app/controllers/**/*
     - app/helpers/**/*
+    - app/mailers/application_mailer.rb
+    - app/models/application_record.rb
     - config/**/*
     - db/migrate/*
