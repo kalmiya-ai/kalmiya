@@ -156,7 +156,7 @@ GEM
     parallel (1.23.0)
     parser (3.2.2.0)
       ast (~> 2.4.1)
-    pg (1.4.6)
+    pg (1.5.1)
     propshaft (0.7.0)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -322,7 +322,7 @@ DEPENDENCIES
   jwt (~> 2.7)
   mocha
   overcommit
-  pg (~> 1.4)
+  pg (~> 1.5)
   propshaft
   puma (~> 6.2)
   rack-mini-profiler
