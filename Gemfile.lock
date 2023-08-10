@@ -81,7 +81,7 @@ GEM
     builder (3.2.4)
     childprocess (4.1.0)
     concurrent-ruby (1.2.2)
-    connection_pool (2.3.0)
+    connection_pool (2.4.1)
     crass (1.0.6)
     cssbundling-rails (1.2.0)
       railties (>= 6.0.0)
@@ -206,9 +206,9 @@ GEM
     rbnacl (7.1.1)
       ffi
     rbs (2.8.4)
-    redis (5.0.6)
+    redis (5.0.7)
       redis-client (>= 0.9.0)
-    redis-client (0.12.1)
+    redis-client (0.15.0)
       connection_pool
     regexp_parser (2.8.1)
     reline (0.3.3)
