@@ -165,7 +165,7 @@ GEM
       activesupport (>= 7.0.0)
       rack
       railties (>= 7.0.0)
-    puma (6.3.1)
+    puma (6.4.0)
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.8)
@@ -334,7 +334,7 @@ DEPENDENCIES
   overcommit
   pg (~> 1.5)
   propshaft
-  puma (~> 6.3)
+  puma (~> 6.4)
   rack-mini-profiler
   rails (~> 7.0.8)
   rbnacl (~> 7.1)
