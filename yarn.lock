@@ -247,20 +247,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hotwired/turbo-rails@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "@hotwired/turbo-rails@npm:8.0.0"
+"@hotwired/turbo-rails@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "@hotwired/turbo-rails@npm:8.0.1"
   dependencies:
-    "@hotwired/turbo": ^8.0.0
+    "@hotwired/turbo": ^8.0.1
     "@rails/actioncable": ^7.0
-  checksum: c8134b3ad323b6a115bab219ad55bf0032faa5cd6f311009e242b7db3365e2bbca76b6e63f789355ffcf44d559ab4628ae85c70d953206bb7d05d3b4a91a51ca
+  checksum: 5a2af10f68c1fe17b910ffc1333dc78d980b74b85e6a21275bef3874d4832f7148a0229a73845242a381b3fc477ce42691108541ba4883d9354e90b126410a62
   languageName: node
   linkType: hard
 
-"@hotwired/turbo@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "@hotwired/turbo@npm:8.0.0"
-  checksum: 78ab54085a7f1fa2d7db99ceaec00fcfd30316e0be95a2c323488a8d77923adef005c27ee860e576e596f6e5d316089e664030d3d39a2c0a83e2d07fc25fad4c
+"@hotwired/turbo@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "@hotwired/turbo@npm:8.0.1"
+  checksum: 5f7a5ba9a81c50f77bec9922dd08cf38104b45464403e474b1c44c3b90f4a8e300e10a61ff7d3fa1016861bc28215c109cd5973aab03d6e5040b17c22411dda2
   languageName: node
   linkType: hard
 
@@ -592,7 +592,7 @@ __metadata:
   resolution: "app@workspace:."
   dependencies:
     "@hotwired/stimulus": ^3.2.2
-    "@hotwired/turbo-rails": ^8.0.0
+    "@hotwired/turbo-rails": ^8.0.1
     "@typescript-eslint/eslint-plugin": ^6.21.0
     "@typescript-eslint/parser": ^6.21.0
     bulma: ^0.9.4
