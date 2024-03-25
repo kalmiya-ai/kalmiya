@@ -228,7 +228,7 @@ GEM
     rbnacl (7.1.1)
       ffi
     rbs (2.8.4)
-    rdoc (6.6.2)
+    rdoc (6.6.3.1)
       psych (>= 4.0.0)
     redis (5.1.0)
       redis-client (>= 0.17.0)
